@@ -1,0 +1,32 @@
+{
+  "name": "Teaching Codespace",
+
+  "customizations": {
+    "codespaces": {
+      "openFiles": ["./MyConsoleApp/Program.cs"]
+    },
+    "vscode": {
+      "extensions": [
+        "ms-dotnettools.csdevkit"
+      ],      
+      "settings": {
+        "github.copilot.enable": false,
+        "github.copilot.enableLanguages": {
+          "*": false
+        },
+        "github.copilot.editor.enableAutoCompletions": false,
+        "editor.inlineSuggest.enabled": false,
+        "chat.enabled": false,
+        "workbench.enableExperiments": false,
+        "extensions.autoUpdate": false,
+        "extensions.autoCheckUpdates": false,
+        "workbench.secondarySideBar.enabled": false,
+        "workbench.startupEditor": "none",
+        "editor.formatOnSave": true,
+        "[csharp]": {
+          "editor.defaultFormatter": "ms-dotnettools.csdevkit"
+        }
+      }
+    }
+  }
+}
